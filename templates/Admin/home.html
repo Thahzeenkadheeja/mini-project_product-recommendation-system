@@ -1,0 +1,221 @@
+{% extends 'Admin/base.html' %}
+
+{% block content %}
+<div class="admin-home">
+    <!-- Hero Section -->
+    <div class="hero-section text-center">
+        <h1>Welcome to the Admin Dashboard</h1>
+        <p>Monitor and manage your platform with ease.</p>
+    </div>
+
+    <!-- Graphs Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="widget graphs-widget">
+                    <h3 class="widget-title">Analytics</h3>
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+     <!-- Offer Products Section -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="widget offer-products-widget">
+                    <h3 class="widget-title">Offer Products</h3>
+                    <div class="card-deck">
+                        <!-- Example Product Card -->
+                        <div class="card">
+                            <img src="/static/User/User_Module/famms-1.0.0/images/p9.png" height="100" width="100" style="margin-left: 600px;" alt="Product Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Name</h5>
+                                <p class="card-text">Description of the product on offer.</p>
+                                <p class="card-text"><small class="text-muted">Discount: 20%</small></p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Add more product cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Widget 1: Overview -->
+            <div class="col-md-4">
+                <div class="widget overview-widget">
+                    <div class="widget-icon">
+                        <i class="fa fa-tachometer"></i>
+                    </div>
+                    <h3 class="widget-title">Overview</h3>
+                    <p class="widget-content">Get a quick overview of recent activities, statistics, and key metrics.</p>
+                    <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+
+            <!-- Widget 2: Recent Orders -->
+            <div class="col-md-4">
+                <div class="widget recent-orders-widget">
+                    <div class="widget-icon">
+                        <i class="fa fa-box"></i>
+                    </div>
+                    <h3 class="widget-title">Recent Orders</h3>
+                    <p class="widget-content">Check out the most recent orders and their status.</p>
+                    <a href="#" class="btn btn-primary">View Orders</a>
+                </div>
+            </div>
+
+            <!-- Widget 3: User Management -->
+            <div class="col-md-4">
+                <div class="widget user-management-widget">
+                    <div class="widget-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <h3 class="widget-title">User Management</h3>
+                    <p class="widget-content">Manage users, view profiles, and handle permissions.</p>
+                    <a href="#" class="btn btn-primary">Manage Users</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Widget 4: Recent Feedback -->
+            <div class="col-md-6">
+                <div class="widget recent-feedback-widget">
+                    <div class="widget-icon">
+                        <i class="fa fa-comment-dots"></i>
+                    </div>
+                    <h3 class="widget-title">Recent Feedback</h3>
+                    <p class="widget-content">Review the latest feedback from users and address any issues.</p>
+                    <a href="#" class="btn btn-primary">View Feedback</a>
+                </div>
+            </div>
+
+            <!-- Widget 5: System Reports -->
+            <div class="col-md-6">
+                <div class="widget system-reports-widget">
+                    <div class="widget-icon">
+                        <i class="fa fa-chart-line"></i>
+                    </div>
+                    <h3 class="widget-title">System Reports</h3>
+                    <p class="widget-content">Access various system reports and analytics.</p>
+                    <a href="#" class="btn btn-primary">View Reports</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<!-- Include Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Sales',
+                data: [12, 19, 3, 5, 2, 3, 7],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+<style>
+    .admin-home {
+        padding: 20px;
+    }
+
+    .hero-section {
+        background: #007bff;
+        color: #fff;
+        padding: 40px 20px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .hero-section p {
+        font-size: 18px;
+    }
+
+    .widget {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+    .widget:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .widget-icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+        color: #007bff;
+    }
+
+    .widget-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .widget-content {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    .graphs-widget {
+        margin-top: 20px;
+    }
+
+    .card-deck .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .card-img-top {
+        border-bottom: 1px solid #ddd;
+    }
+</style>
+{% endblock %}

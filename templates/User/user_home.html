@@ -1,0 +1,92 @@
+{% extends 'User/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+      <!-- arrival section -->
+      <section class="arrival_section">
+         <div class="container">
+            <div class="box">
+               <div class="arrival_bg_box">
+                  <img src="/static/User/User_Module/famms-1.0.0/images/arrival-bg.png" alt="">
+               </div>
+               <div class="row">
+                  <div class="col-md-6 ml-auto">
+                     <div class="heading_container remove_line_bt">
+                        <h2>
+                           #NewArrivals
+                        </h2>
+                     </div>
+                     <p style="margin-top: 20px;margin-bottom: 30px;">
+                        Discover our latest arrivals, where style meets innovation! Our new collection features a stunning array of products, from chic and trendy apparel to cutting-edge tech gadgets. Each item is meticulously curated to offer the perfect blend of quality and modern design. Whether you're looking for the latest fashion trends to refresh your wardrobe or the newest gadgets to enhance your lifestyle, our newly arrived products are sure to impress. Explore the collection now and find your next favorite piece that blends sophistication with functionality.
+                     </p>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end arrival section -->
+
+
+
+          <!-- product section -->
+      <section class="product_section layout_padding">
+         <div class="container">
+            <div class="heading_container heading_center">
+               <h2><span>products</span>
+               </h2>
+            </div>
+            <div class="row">
+                {% for i in products|slice:":6" %}
+               <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="box">
+                     <div class="option_container">
+                        <div class="options">
+                            {% if i.stock == 0 %}
+                            <span style="color: red; font-size: x-large;cursor: poin"> Out Of Stock</span>
+                            {% else %}
+                           <a href="add_to_cart/{{ i.id }}" class="option1">
+                           Add To Cart
+                           </a>
+{#                           <a href="" class="option2">#}
+{#                           Buy Now#}
+{#                           </a>#}
+                            {% endif %}
+                        </div>
+                     </div>
+                     <div class="img-box">
+                        <img src="{{ i.image.url }}" alt="">
+                     </div>
+                     <div class="detail-box">
+                        <h5>
+                            {{ i.product_name }}
+                        </h5>
+                        <h6>
+                           ₹ {{ i.price }}
+                        </h6>
+                     </div>
+                  </div>
+               </div>
+                {% endfor %}
+
+            </div>
+            <div class="btn-box">
+               <a href="view_all_products">
+               View All products
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- end product section -->
+
+
+
+
+
+
+
+
+
+   {% endblock %}

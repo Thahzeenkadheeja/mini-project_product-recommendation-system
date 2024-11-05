@@ -1,0 +1,156 @@
+{% extends 'User/base.html' %}
+{% block title %}
+User | Edit Profile
+{% endblock %}
+{% block content %}
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Edit Profile</h2>
+    <form method="POST" enctype="multipart/form-data" action="/edit_profile_post">
+        {% csrf_token %}
+        <input type="hidden" name="id" value="{{ profile.id }}">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- Profile Image -->
+                <div class="form-group text-center">
+                    <!-- Rectangular Image -->
+                    <img src="{{ profile.image.url }}" alt="Profile Image" class="img-fluid mb-3 profile-img">
+                    <!-- Custom File Input Button -->
+                    <label class="custom-file-upload btn btn-primary">
+                        <input type="file" name="image" class="file-input">
+                        Choose File
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <!-- Profile Details -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" value="{{ profile.name }}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select class="form-control" id="gender" name="gender">
+                        <option value="Male" {% if profile.gender == 'Male' %}selected{% endif %}>Male</option>
+                        <option value="Female" {% if profile.gender == 'Female' %}selected{% endif %}>Female</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="place">Place</label>
+                    <input type="text" class="form-control" id="place" name="place" value="{{ profile.place }}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pin">PIN</label>
+                    <input type="number" class="form-control" id="pin" name="pin" value="{{ profile.pin }}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="post">Post</label>
+                    <input type="text"  class="form-control" id="post" name="post" value="{{ profile.post }}" required>
+                </div>
+
+                <div class="form-group">
+   <label for="phone">Phone</label>
+   <input type="text" id="phone" name="phone" value="{{ profile.phone }}" required>
+   <small id="phone-error" style="color: red; display: none;">Please enter a valid phone number</small>
+</div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" value="{{ profile.email }}" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Add custom CSS -->
+<style>
+    .container {
+        margin-bottom: 100px;
+    }
+
+    /* Rectangular profile image */
+    .profile-img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Custom file input button */
+    .custom-file-upload {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .custom-file-upload:hover {
+        background-color: #0056b3;
+    }
+
+    /* Hide the default file input */
+    .file-input {
+        display: none;
+    }
+
+    /* Custom styling for buttons */
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        transform: scale(1.03);
+    }
+
+    .btn-primary:focus {
+        box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+    }
+</style>
+<script>
+    document.getElementById('phone').addEventListener('input', function() {
+   var phoneInput = document.getElementById('phone').value;
+   var errorMessage = document.getElementById('phone-error');
+
+   // Phone number pattern: Adjust this as per your requirements
+   var phonePattern = /^[0-9]{10}$/; // Example for 10 digits numeric phone number
+
+   // Check if phone number matches the pattern
+   if (phonePattern.test(phoneInput)) {
+      // If valid, hide the error message
+      errorMessage.style.display = 'none';
+      document.getElementById('phone').style.borderColor = ''; // Reset border color
+   } else {
+      // If invalid, show the error message
+      errorMessage.style.display = 'block';
+      document.getElementById('phone').style.borderColor = 'red'; // Optional: Add red border to input
+   }
+});
+
+// Optionally, prevent form submission if the phone number is invalid
+document.getElementById('submit-btn').addEventListener('click', function(event) {
+   var phoneInput = document.getElementById('phone').value;
+   var phonePattern = /^[0-9]{10}$/; // Example for 10 digits numeric phone number
+
+   if (!phonePattern.test(phoneInput)) {
+      event.preventDefault(); // Prevent form submission if phone number is invalid
+      document.getElementById('phone-error').style.display = 'block';
+   }
+});
+
+</script>
+
+{% endblock %}

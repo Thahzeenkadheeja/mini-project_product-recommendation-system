@@ -1,0 +1,20 @@
+{% extends 'Admin/base.html' %}
+{% block content %}
+
+<div class="container mt-5">
+  <h2 class="mb-4">Send your Reply</h2>
+  <form method="post" action='/complaint_reply_post'>
+    {% csrf_token %}
+
+    <div class="form-group">
+        <input type="hidden" name="id" value="{{ complaint.id }}">
+      <label for="complaintText">Complaint: <b>{{ complaint.complaint }}</b></label>
+      <textarea id="complaintText" name="reply" class="form-control" rows="5"
+        placeholder="Reply.." required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Submit Reply</button>
+  </form>
+</div>
+
+{% endblock %}

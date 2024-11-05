@@ -1,0 +1,36 @@
+{% extends 'Admin/base.html' %}
+{% block title %}
+Admin | View Ratings
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Ratings for Seller: {{ seller.name|capfirst }}</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Average Rating</th>
+                <th>Feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product_feedback in product_feedbacks %}
+            <tr>
+                <td>{{ product_feedback.product_name }}</td>
+                <td>{{ product_feedback.average_rating|floatformat:1 }}</td>
+                <td>
+                    {% for feedback in product_feedback.feedbacks %}
+                        <p>{{ feedback.feedback }} (Rating: {{ feedback.ratings }})</p>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="3">No products found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

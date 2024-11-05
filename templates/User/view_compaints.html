@@ -1,0 +1,31 @@
+{% extends 'User/base.html' %}
+{% block content %}
+
+    <h4 style="margin-top: 20px; cursor: pointer; text-decoration: none"><a href="add_new">Add New Complaint</a></h4>
+
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Date</th>
+      <th scope="col">Complaint</th>
+      <th scope="col">Reply</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in complaints %}
+    <tr>
+      <th scope="row">1</th>
+      <td>{{ i.date }}</td>
+      <td>{{ i.complaint }}</td>
+      <td>{{ i.reply }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+
+
+
+
+{% endblock %}

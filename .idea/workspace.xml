@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1949bc1d-2a61-467a-a5b9-6f64618dea75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_before.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_brick_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_brick_1_JFm78OH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_brick_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_brick_2_5aNsAnY.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-08-30_fashion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-02_Screenshot 2024-09-02 085717.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_IjLiqkN.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_YR5ajSj.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_mfs3Vnk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_sSm1aTo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_tWLjw81.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_tpsL01K.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-09-23_w3O2gsp.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-25" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-27" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-27_ZJyvVtW" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-27_dz89tJw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-31" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/2024-10-31_GEZaVXy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/DBMS (2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/NoImage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/NoImage_UKR3IKH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-07-30 102736.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 130934.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 130934_4u13ECS.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 140636.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 140749.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 141429.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 141701.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 141722.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 152440.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195011.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195011_G1PLJjz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195011_ni4pXZL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195011_o1boo5r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195139.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195139_3YlRSYU.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195139_QISfR1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195139_id2VEtJ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195323.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195352.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 195514.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 203544.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 203703.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 203703_EvI3anm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 203744.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 203833.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 204033.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 204033_MrNY5OJ.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 204656.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-09-23 204656_sIAQm1z.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 200913.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 200913_GTykceH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 200913_IolrE3Y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 200913_gLBssHK.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 200913_qlSGXSm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-06 201003.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/Screenshot 2024-10-11 223745.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 1.08.50 PM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 1.11.03 PM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 1_DfyXYnh.11.03 PM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 1_NsIyPp2.11.03 PM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 9.14.35 AM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 9.16.34 AM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 9_7KE38HY.16.34 AM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 9_g2KtWn1.14.35 AM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/WhatsApp Image 2024-10-31 at 9_hNW4vZu.16.34 AM.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/carousel1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/furnics-1.0.0.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/image6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/image7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/image7_NIkeosc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/manage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/nexon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/princi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/profile_E6z3a8I.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/seller1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/seller1_tJp89Kx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_5FXx5xg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_LqbNZ4e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_VjoGL5Z.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_fujTcE3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_ghfUwPo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/user-profile-icon-6_jUWeelE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/IcoMoon-Free.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-BlackItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-ExtraBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-ExtraBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-ExtraLight.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-ExtraLightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-SemiBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-SemiBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/Poppins-ThinItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/calll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/errow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/instagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/lin(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/p7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/service6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/icon/tw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/blog-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/blog-image0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/lllll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/mapimg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/pc_layout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/images/search_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/coloredbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/gridtile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/gridtile_3x3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/gridtile_3x3_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/gridtile_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/assets/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroked41d.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/revicons/revicons90c6.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/revicons/revicons90c6.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/revicons/revicons90c6.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/arrival-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/arrival-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/client.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/girl1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/girl2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/p9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/seller1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/slider-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Product_Recommendation_System.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0002_sellertable_id_proof.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0003_rename_price_ordertable_amount_and_more.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0004_alter_feedbacktable_user_id_alter_ordertable_user_id.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0005_remove_feedbacktable_reply.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0006_remove_feedbacktable_product_id_feedbacktable_orders.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0007_remove_feedbacktable_orders_feedbacktable_product.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0008_producttable_date.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0009_userhistorytable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0010_remove_feedbacktable_product_and_more.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0011_rename_order_feedbacktable_order_and_more.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0012_rename_order_feedbacktable_order_and_more.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0013_remove_feedbacktable_order_and_more.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/0014_alter_ordertable_amount.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/My_App/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Product_Recommendation_System/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Product_Recommendation_System/asgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Product_Recommendation_System/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Product_Recommendation_System/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Product_Recommendation_System/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/blog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/default-skin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/icomoon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/jquery.fancybox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/jquery.mCustomScrollbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/meanmenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/nice-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/jquery-3.0.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/jquery.mCustomScrollbar.concat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/modernizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/popper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/css/closedhand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/css/layers.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/css/navigation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/css/openhand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/css/settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/fonts/revicons/revicons90c6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.kenburn.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.layeranimation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.migration.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.navigation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.parallax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.slideanims.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/extensions/revolution.extension.video.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/jquery.themepunch.revolution.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/revolution/js/jquery.themepunch.tools.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/slider-setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/blog_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/style.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/css/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/js/jquery-3.4.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/js/popper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/testimonial.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/View_feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/View_product_rating.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/send_reply.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/verify_seller.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/view_complaint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Admin/view_users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/PRS/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/PRS/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/PRS/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/add_product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/edit_product.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/edit_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/sel_View_feedback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/verify_orders.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/view_more_order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/view_order_history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/view_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Seller/view_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/UserPayProceed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/edit_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/registration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/send_complaint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/user_home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/user_view_cart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_compaints.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_history.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_more_order_status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_order_status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/User/view_rec.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_App/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="280" column="39" lean-forward="true" selection-start-line="280" selection-start-column="39" selection-end-line="280" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/My_App/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_product_rating.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Admin/View_product_rating.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit_profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Seller/edit_profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="767">
+              <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_App/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Seller/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2247">
+              <caret line="107" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPayProceed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/User/UserPayProceed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2037">
+              <caret line="97" column="98" lean-forward="false" selection-start-line="97" selection-start-column="95" selection-end-line="97" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/My_App/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="987">
+              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search_products</find>
+      <find>Product(</find>
+      <find>ProductTable</find>
+      <find>search</find>
+      <find>view_rec</find>
+      <find>view_r</find>
+      <find>send_request</find>
+      <find>user</find>
+      <find>pay(</find>
+      <find>view_order_status</find>
+      <find>view_cart</find>
+      <find>remove</find>
+      <find>view_cart(</find>
+      <find>Httpresponse</find>
+      <find>form</find>
+      <find>user_order_history</find>
+      <find>orders_details</find>
+      <find>feedback</find>
+      <find>sellerid</find>
+      <find>verify_seller_product_rate</find>
+      <find>product_feedbackadmin</find>
+      <find>add feed</find>
+      <find>verify_seller</find>
+      <find>view_all_products</find>
+      <find>admin_view_complaint</find>
+      <find>alert</find>
+      <find>complaint_reply</find>
+      <find>user_pay_proceed</find>
+      <find>seller</find>
+      <find>seller_home(</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Product_Recommendation_System/urls.py" />
+        <option value="$PROJECT_DIR$/templates/PRS/Home.html" />
+        <option value="$PROJECT_DIR$/templates/User/index.html" />
+        <option value="$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/custom.js" />
+        <option value="$PROJECT_DIR$/templates/Admin/home.html" />
+        <option value="$PROJECT_DIR$/My_App/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/User/view_profile.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/view_profile.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view_users.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_compaints.html" />
+        <option value="$PROJECT_DIR$/templates/User/send_complaint.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view_complaint.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/view_products.html" />
+        <option value="$PROJECT_DIR$/templates/PRS/home.html" />
+        <option value="$PROJECT_DIR$/templates/User/registration.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/registration.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/add_product.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/edit_product.html" />
+        <option value="$PROJECT_DIR$/templates/User/edit_profile.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/verify_orders.html" />
+        <option value="$PROJECT_DIR$/templates/User/vie_more_order_status.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view_more_order.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/view_more_order.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_more_order_status.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/verify_orders.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_order_status.html" />
+        <option value="$PROJECT_DIR$/templates/User/user_home.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/view_order_history.html" />
+        <option value="$PROJECT_DIR$/Product_Recommendation_System/settings.py" />
+        <option value="$PROJECT_DIR$/templates/Seller/edit_profile.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/View_feedback.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/home.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/base.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_rec.html" />
+        <option value="$PROJECT_DIR$/templates/PRS/login.html" />
+        <option value="$PROJECT_DIR$/templates/User/base.html" />
+        <option value="$PROJECT_DIR$/templates/User/user_view_cart.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_history.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/View_product_rating.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/verify_seller.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/base.html" />
+        <option value="$PROJECT_DIR$/templates/Seller/sel_View_feedback.html" />
+        <option value="$PROJECT_DIR$/templates/User/view_products.html" />
+        <option value="$PROJECT_DIR$/templates/PRS/base.html" />
+        <option value="$PROJECT_DIR$/My_App/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Admin/send_reply.html" />
+        <option value="$PROJECT_DIR$/templates/User/UserPayProceed.html" />
+        <option value="$PROJECT_DIR$/My_App/models.py" />
+        <option value="$PROJECT_DIR$/My_App/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product_Recommendation_System_15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\Product_Recommendation_System\templates\Seller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thahz\Downloads\Product_Recommendation_System (4)\Product_Recommendation_System_15\templates\User" />
+      <recent name="C:\Users\thahz\Downloads\Product_Recommendation_System (4)\Product_Recommendation_System_15\templates\Seller" />
+      <recent name="C:\Users\USER\PycharmProjects\Product_Recommendation_System\templates\User" />
+      <recent name="C:\Users\USER\PycharmProjects\Product_Recommendation_System\static\User\User_Module\famms-1.0.0\images" />
+      <recent name="C:\Users\USER\PycharmProjects\Product_Recommendation_System\templates\PRS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.Product_Recommendation_System">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Product_Recommendation_System" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Product_Recommendation_System" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Product_Recommendation_System.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\thahz\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Product_Recommendation_System" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.Product_Recommendation_System" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1949bc1d-2a61-467a-a5b9-6f64618dea75" name="Default" comment="" />
+      <created>1724928114058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724928114058</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1038" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.150913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Search_Mate/Search_mate - Login/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="286" column="24" lean-forward="true" selection-start-line="286" selection-start-column="24" selection-end-line="286" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PRS/home_page.html" />
+    <entry file="file://$PROJECT_DIR$/static/User/User_Module/famms-1.0.0/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product_Recommendation_System/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/view_products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/add_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/edit_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7656">
+          <caret line="348" column="12" lean-forward="false" selection-start-line="330" selection-start-column="3" selection-end-line="348" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_compaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="87" lean-forward="false" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/edit_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3982">
+          <caret line="181" column="0" lean-forward="true" selection-start-line="179" selection-start-column="3" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/view_more_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/razorpay/client.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/razorpay/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/templates/Seller/verify_orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_more_order_status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="83" column="134" lean-forward="false" selection-start-line="83" selection-start-column="134" selection-end-line="83" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_order_status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/view_order_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="74" lean-forward="false" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product_Recommendation_System/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_App/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/view_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view_users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/user_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/send_complaint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view_complaint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_rec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PRS/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2604">
+          <caret line="124" column="52" lean-forward="false" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4179">
+          <caret line="199" column="13" lean-forward="false" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="159" column="40" lean-forward="false" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="40" />
+          <folding>
+            <element signature="e#4634#4640#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/user_view_cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="169" column="42" lean-forward="false" selection-start-line="169" selection-start-column="42" selection-end-line="169" selection-end-column="42" />
+          <folding>
+            <element signature="e#4715#4741#0#HTML" expanded="false" />
+            <element signature="e#5802#5820#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/django/contrib/admin/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="112" column="53" lean-forward="true" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+          <folding>
+            <marker date="1730023386696" expanded="false" signature="4652:4658" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/verify_seller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="166" column="35" lean-forward="false" selection-start-line="164" selection-start-column="30" selection-end-line="166" selection-end-column="35" />
+          <folding>
+            <marker date="1730358091791" expanded="false" signature="5670:5676" ph=" " />
+            <marker date="1730358091791" expanded="false" signature="6018:6024" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="161" column="5" lean-forward="true" selection-start-line="146" selection-start-column="4" selection-end-line="161" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/sel_View_feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/view_products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PRS/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding>
+            <element signature="e#4874#4916#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/PRS/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="49" selection-end-line="97" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/send_reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/User/UserPayProceed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2037">
+          <caret line="97" column="98" lean-forward="false" selection-start-line="97" selection-start-column="95" selection-end-line="97" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_App/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2247">
+          <caret line="107" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View_product_rating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Seller/edit_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="51" column="58" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_App/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_App/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="280" column="39" lean-forward="true" selection-start-line="280" selection-start-column="39" selection-end-line="280" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My_App/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

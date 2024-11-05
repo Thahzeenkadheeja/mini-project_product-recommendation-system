@@ -1,0 +1,32 @@
+{% extends 'Admin/base.html' %}
+{% block content %}
+
+    <table class="table table-striped" style="margin-top: 10px">
+  <thead>
+    <tr>
+      <th>Si.No</th>
+      <th>User info</th>
+      <th>Feedback</th>
+
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in sellers %}
+    <tr>
+      <th>{{ forloop.counter }}</th>
+        <th>{{i.USER_ID.name }}</th>
+      <td>{{ i.feedback }}<br>Rating : {{  i.ratings  }}
+          <span style="color: {% if forloop.counter <= i.ratings %}gold{% else %}#ccc{% endif %};">
+            ★
+          </span>
+        </br></td>
+
+      </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+
+
+{% endblock %}
+

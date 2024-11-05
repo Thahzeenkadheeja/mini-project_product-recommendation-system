@@ -1,0 +1,95 @@
+{% extends 'User/base.html' %}
+{% block content %}
+<style>
+    .custom-card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+    .custom-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .custom-card img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .custom-card-body {
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    .custom-card-body h5 {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    .custom-card-body p {
+        margin: 0;
+        color: #7f8c8d;
+    }
+
+    .price-text {
+        font-size: 1.2em;
+        color: #e74c3c;
+        font-weight: bold;
+    }
+     .view-btn {
+        background-color: #3498db; /* Blue background */
+        color: white; /* White text */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 15px 30px; /* Larger padding for a bigger button */
+        font-size: 18px; /* Bigger font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+
+    .view-btn:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+    }
+
+    .view-btn:focus {
+        outline: none; /* Remove default outline */
+    }
+
+    .stock-text {
+        font-size: 1em;
+        color: #27ae60;
+    }
+
+    @media (max-width: 768px) {
+        .col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+</style>
+<div class="container mt-4">
+<button onclick="history.back();" class="btn view-btn">Back</button><br><br>
+
+    <div class="row">
+        {% for i in order_details %}
+        <div class="col-md-3 mb-4">
+            <div class="card custom-card">
+                <img class="card-img-top" src="{{ i.PRODUCT_ID.image.url }}" alt="{{ i.PRODUCT_ID.product_name }}" height="190">
+                <div class="custom-card-body">
+                    <h5 class="card-title">{{ i.PRODUCT_ID.product_name }}</h5>
+                    <p class="price-text">Price : ₹{{ i.PRODUCT_ID.price }}</p>
+                    <p><strong>Ordered Quantity : </strong> {{ i.quantity }}</p>
+                    <p class="stock-text"><strong>Status : </strong>{% if i.status == 'cart' %} Pending {% else %}{{ i.status|capfirst }}{% endif %}</p>
+                </div>
+            </div>
+        </div>
+        {% if forloop.counter|divisibleby:4 %}
+        </div><div class="row">
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,360 @@
+{% load static %}
+<html>
+   <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       <style>
+           /* Basic styling from your current template */
+           .header_section {
+               background-color: #fff;
+               padding: 10px 0;
+               border-bottom: 1px solid #ddd;
+           }
+
+           .custom_nav-container {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+           }
+
+           .navbar-brand {
+               font-size: 24px;
+               font-weight: bold;
+           }
+
+           .registration-container {
+               display: flex;
+               justify-content: center;
+               align-items: flex-start;
+               padding: 40px 0; /* Space above and below the form */
+               background-color: #f8f9fa;
+           }
+
+           .registration-box {
+               background-color: #fff;
+               border-radius: 8px;
+               box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+               padding: 30px;
+               width: 100%;
+               max-width: 600px; /* Max width for larger screens */
+               margin: 0 20px; /* Responsive margin */
+           }
+
+           .registration-box h2 {
+               text-align: center;
+               margin-bottom: 20px;
+               font-size: 28px;
+               font-weight: bold;
+               color: #007bff;
+           }
+
+           .form-group {
+               margin-bottom: 15px;
+           }
+
+           .form-group label {
+               font-size: 16px;
+               color: #333;
+               font-weight: bold;
+           }
+
+           .form-group input[type="text"],
+           .form-group input[type="email"],
+           .form-group input[type="password"],
+           .form-group input[type="file"] {
+               width: 100%;
+               padding: 10px;
+               font-size: 16px;
+               border: 1px solid #ddd;
+               border-radius: 4px;
+           }
+
+           .form-group .gender-options {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               margin-top: 5px;
+           }
+
+           .form-group .gender-options label {
+               margin-right: 10px;
+               font-weight: normal;
+           }
+
+           .form-group input[type="radio"] {
+               margin-right: 5px;
+           }
+
+           .registration-box button {
+               width: 100%;
+               padding: 10px;
+               font-size: 18px;
+               color: #fff;
+               background-color: #007bff;
+               border: none;
+               border-radius: 4px;
+               cursor: pointer;
+           }
+
+           .registration-box button:hover {
+               background-color: #0056b3;
+           }
+
+           .registration-box .login-link {
+               display: block;
+               text-align: center;
+               margin-top: 10px;
+               font-size: 16px;
+               color: #007bff;
+           }
+
+           .registration-box .login-link:hover {
+               color: #0056b3;
+           }
+       </style>
+       <!-- Basic -->
+       <meta charset="utf-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <!-- Mobile Metas -->
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+       <title>Register - Search Mate</title>
+       <!-- bootstrap core css -->
+       <link rel="stylesheet" type="text/css" href='/static/User/User_Module/famms-1.0.0/css/bootstrap.css'/>
+       <!-- font awesome style -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- Custom styles for this template -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/style.css" rel="stylesheet" />
+       <!-- responsive style -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/responsive.css" rel="stylesheet" />
+   </head>
+   <body>
+      <header class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+               <i><h1>SearchMate</h1></i>
+            </nav>
+         </div>
+      </header>
+
+      <div class="registration-container">
+         <div class="registration-box">
+            <h2>Seller Registration</h2>
+            <form method="POST" enctype="multipart/form-data" action="seller_registration">
+               {% csrf_token %}
+               <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+               </div>
+
+               <div class="form-group">
+                  <label for="place">Place</label>
+                  <input type="text" id="place" name="place" required>
+               </div>
+               <div class="form-group">
+   <label for="phone">Phone</label>
+   <input type="text" id="phone" name="phone" required>
+   <small id="phone-error" style="color: red; display: none;">Please enter a valid phone number</small>
+</div>
+
+               <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+               </div>
+               <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" id="username" name="username" required>
+               </div>
+               <div class="form-group" style="position: relative;">
+   <label for="password">Password</label>
+   <input type="password" id="password" name="password" required>
+   <!-- Eye icon to toggle password visibility -->
+   <span  id="toggle-password" style="position: absolute; right: 10px; top: 35px; cursor: pointer; margin-top: 10px;">
+      <i class="fas fa-eye"></i>
+   </span>
+   <small id="password-error" style="color: red; display: none;">Password must be at least 8 characters long, and include an uppercase letter, a lowercase letter, a digit, and a special character.</small>
+</div>
+               <div class="form-group">
+                  <label for="image">Profile Image</label>
+   <input type="file" id="image" name="image" accept=".jpg, .jpeg, .png" required>
+                      <small id="file-error" style="color: red; display: none;">Please upload a valid image file (jpg, jpeg, png).</small>
+
+               </div>
+                <div class="form-group">
+                  <label for="image">Id Image</label>
+   <input type="file" id="id_proof" name="id_proof" accept=".jpg, .jpeg, .png" required>
+   <small id="file-errors" style="color: red; display: none;">Please upload a valid image file (jpg, jpeg, png).</small>
+
+               </div>
+               <button type="submit" id="submit-btn">Register</button>
+               <a class="login-link" href="login">Already have an account? Login</a>
+            </form>
+         </div>
+      </div>
+
+      <!-- jQuery -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/jquery-3.4.1.min.js"></script>
+      <!-- popper js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/popper.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/custom.js"></script>
+
+<script>
+    document.getElementById('phone').addEventListener('input', function() {
+   var phoneInput = document.getElementById('phone').value;
+   var errorMessage = document.getElementById('phone-error');
+
+   // Phone number pattern: Adjust this as per your requirements
+   var phonePattern = /^[0-9]{10}$/; // Example for 10 digits numeric phone number
+
+   // Check if phone number matches the pattern
+   if (phonePattern.test(phoneInput)) {
+      // If valid, hide the error message
+      errorMessage.style.display = 'none';
+      document.getElementById('phone').style.borderColor = ''; // Reset border color
+   } else {
+      // If invalid, show the error message
+      errorMessage.style.display = 'block';
+      document.getElementById('phone').style.borderColor = 'red'; // Optional: Add red border to input
+   }
+});
+
+// Optionally, prevent form submission if the phone number is invalid
+document.getElementById('submit-btn').addEventListener('click', function(event) {
+   var phoneInput = document.getElementById('phone').value;
+   var phonePattern = /^[0-9]{10}$/; // Example for 10 digits numeric phone number
+
+   if (!phonePattern.test(phoneInput)) {
+      event.preventDefault(); // Prevent form submission if phone number is invalid
+      document.getElementById('phone-error').style.display = 'block';
+   }
+});
+
+</script>
+
+<script>
+    document.getElementById('password').addEventListener('input', function() {
+   var passwordInput = document.getElementById('password').value;
+   var errorMessage = document.getElementById('password-error');
+
+   // Password pattern: At least 8 characters, with uppercase, lowercase, digit, and special character
+   var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+   // Check if password matches the pattern
+   if (passwordPattern.test(passwordInput)) {
+      // If valid, hide the error message
+      errorMessage.style.display = 'none';
+      document.getElementById('password').style.borderColor = ''; // Reset border color
+   } else {
+      // If invalid, show the error message
+      errorMessage.style.display = 'block';
+      document.getElementById('password').style.borderColor = 'red'; // Optional: Add red border to input
+   }
+});
+
+// Optionally, prevent form submission if the password is invalid
+document.getElementById('submit-btn').addEventListener('click', function(event) {
+   var passwordInput = document.getElementById('password').value;
+   var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+   if (!passwordPattern.test(passwordInput)) {
+      event.preventDefault(); // Prevent form submission if password is invalid
+      document.getElementById('password-error').style.display = 'block';
+   }
+});
+</script>
+
+   <script>
+       // Toggle password visibility
+document.getElementById('toggle-password').addEventListener('click', function() {
+   var passwordInput = document.getElementById('password');
+   var icon = document.getElementById('toggle-password').querySelector('i');
+
+   // Toggle the type attribute between 'password' and 'text'
+   if (passwordInput.type === 'password') {
+      passwordInput.type = 'text';
+      icon.classList.remove('fa-eye');
+      icon.classList.add('fa-eye-slash'); // Change icon to indicate "hide"
+   } else {
+      passwordInput.type = 'password';
+      icon.classList.remove('fa-eye-slash');
+      icon.classList.add('fa-eye'); // Change icon back to "show"
+   }
+});
+
+// Password validation
+document.getElementById('password').addEventListener('input', function() {
+   var passwordInput = document.getElementById('password').value;
+   var errorMessage = document.getElementById('password-error');
+
+   // Password pattern: At least 8 characters, with uppercase, lowercase, digit, and special character
+   var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+   // Check if password matches the pattern
+   if (passwordPattern.test(passwordInput)) {
+      // If valid, hide the error message
+      errorMessage.style.display = 'none';
+      document.getElementById('password').style.borderColor = ''; // Reset border color
+   } else {
+      // If invalid, show the error message
+      errorMessage.style.display = 'block';
+      document.getElementById('password').style.borderColor = 'red'; // Optional: Add red border to input
+   }
+});
+
+// Prevent form submission if the password is invalid
+document.getElementById('submit-btn').addEventListener('click', function(event) {
+   var passwordInput = document.getElementById('password').value;
+   var passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
+   if (!passwordPattern.test(passwordInput)) {
+      event.preventDefault(); // Prevent form submission if password is invalid
+      document.getElementById('password-error').style.display = 'block';
+   }
+});
+
+   </script>
+
+   <script>
+       document.getElementById('image').addEventListener('change', function() {
+   var fileInput = document.getElementById('image');
+   var filePath = fileInput.value;
+   var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+   var errorMessage = document.getElementById('file-error');
+
+   // Check if file extension matches the allowed formats
+   if (!allowedExtensions.exec(filePath)) {
+      // If invalid, show error message and clear the file input
+      errorMessage.style.display = 'block';
+      fileInput.value = ''; // Reset the input
+   } else {
+      // If valid, hide error message
+      errorMessage.style.display = 'none';
+   }
+});
+
+   </script>
+   <script>
+       document.getElementById('id_proof').addEventListener('change', function() {
+   var fileInput = document.getElementById('id_proof');
+   var filePath = fileInput.value;
+   var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+   var errorMessage = document.getElementById('file-errors');
+
+   // Check if file extension matches the allowed formats
+   if (!allowedExtensions.exec(filePath)) {
+      // If invalid, show error message and clear the file input
+      errorMessage.style.display = 'block';
+      fileInput.value = ''; // Reset the input
+   } else {
+      // If valid, hide error message
+      errorMessage.style.display = 'none';
+   }
+});
+
+   </script>
+   </body>
+</html>

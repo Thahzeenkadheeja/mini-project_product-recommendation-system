@@ -1,0 +1,174 @@
+{% extends 'User/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Order History</h2>
+    <div class="order-history-container">
+        {% for order in orders_details %}
+        <div class="order-item card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <a href="view_full_order_history/{{ order.detail.PRODUCT_ID.id }}">
+                        <img src="{{ order.detail.PRODUCT_ID.image.url }}" class="card-img" alt="{{ order.detail.PRODUCT_ID.product_name }}">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ order.detail.PRODUCT_ID.product_name }}</h5>
+                        <p class="card-text">Price: ₹ {{ order.detail.price }}</p>
+            <br><br>
+                        {% if order.feedback %}
+                            <p>Your Review : {{ order.feedback.feedback }}</p>
+                            <p>
+                            <span class="star-rating" id="rating">
+                                {% for star in '12345' %}
+                                {% if star|add:'0'|floatformat:0 <= order.feedback.ratings|floatformat:0 %}
+                                    <span class="star" data-value="1">&#9733;</span>
+                                    {% else %}
+                                    {% endif %}
+                            {% endfor %}
+                            </span>
+
+
+                            </p>
+                        {% else %}
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#reviewModal{{ order.detail.PRODUCT_ID.id }}">
+                                Write a Review
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="reviewModal{{ order.detail.PRODUCT_ID.id }}" tabindex="-1" role="dialog" aria-labelledby="reviewModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="reviewModalLabel">Submit Review for {{ order.detail.PRODUCT_ID.product_name }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form action="{% url 'submit_review' %}" method="POST">
+                        <input type="hidden" name="product_id" value="{{ order.detail.id }}">
+                        {% csrf_token %}
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="feedback">Your Review</label>
+                                <textarea class="form-control" id="feedback" name="feedback" rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="rating">Rating</label>
+                                <div class="star-rating" id="rating" data-rating="0">
+                                    <span class="star" data-value="1">&#9734;</span>
+                                    <span class="star" data-value="2">&#9734;</span>
+                                    <span class="star" data-value="3">&#9734;</span>
+                                    <span class="star" data-value="4">&#9734;</span>
+                                    <span class="star" data-value="5">&#9734;</span>
+                                </div>
+                                <input type="hidden" name="rating" id="ratingValue{{ order.detail.PRODUCT_ID.id }}" value="">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success">Submit Review</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Include Bootstrap JS if not already included -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.star').on('click', function() {
+            var rating = $(this).data('value');
+            var modalId = $(this).closest('.modal').find('input[type="hidden"][name="rating"]');
+            modalId.val(rating);
+            $(this).siblings('.star').html('&#9734;'); // Reset all stars to empty
+            $(this).html('&#9733;'); // Fill clicked star
+            $(this).prevAll('.star').html('&#9733;'); // Fill all previous stars
+        });
+    });
+</script>
+
+<style>
+    /* Container for the order history */
+    .order-history-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Individual order item */
+    .order-item {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    /* Product image styling */
+    .card-img {
+        object-fit: cover;
+        height: 200px;
+    }
+
+    /* Card body styles */
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    /* Modal styling */
+    .modal-content {
+        border-radius: 10px;
+    }
+
+    .modal-header {
+        border-bottom: none;
+    }
+
+    .modal-footer {
+        border-top: none;
+    }
+
+    /* Star rating styles */
+    .star-rating {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .star {
+        margin-left: 40px;
+        font-size: 34px;
+        color: gold; /* Color for filled star */
+        margin-right: 5px;
+    }
+
+    .star:hover,
+    .star:hover ~ .star {
+        color: gold; /* Color on hover */
+    }
+
+    /* Button hover effects */
+    button {
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #218838;
+    }
+</style>
+
+{% endblock %}

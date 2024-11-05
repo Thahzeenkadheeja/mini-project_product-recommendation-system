@@ -1,0 +1,155 @@
+{% load static %}
+<html>
+<head>
+    <style>
+        /* Basic navbar styling */
+        .header_section {
+            background-color: #fff; /* Background color of the header */
+            padding: 10px 0; /* Padding around the header */
+            border-bottom: 1px solid #ddd; /* Optional: border for separation */
+        }
+
+        .custom_nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            font-size: 24px; /* Size of the brand text */
+            font-weight: bold;
+        }
+
+        .navbar-toggler {
+            border: none; /* Remove border from the toggler */
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,..."); /* Add a custom icon if needed */
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: auto;
+        }
+
+        .nav-link {
+            padding: 5px 10px; /* Reduced padding around links */
+            font-size: 16px; /* Font size of the links */
+            color: #333; /* Text color */
+        }
+
+        .nav-link:hover {
+            color: #007bff; /* Color on hover */
+        }
+
+        .dropdown-menu {
+            min-width: 150px; /* Minimum width of the dropdown menu */
+        }
+
+        .dropdown-item {
+            font-size: 16px; /* Font size of dropdown items */
+            padding: 8px 10px; /* Reduced padding around dropdown items */
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 5px; /* Reduced space between nav items */
+        }
+
+        .navbar-nav .nav-item.active .nav-link {
+            font-weight: bold; /* Bold text for active item */
+            color: #007bff; /* Color for active link */
+        }
+
+    </style>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="/static/User/User_Module/famms-1.0.0/images/favicon.png" type="">
+    <title>{% block title %}Admin{% endblock %}</title>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/static/User/User_Module/famms-1.0.0/css/bootstrap.css" />
+    <!-- font awesome style -->
+    <link href="/static/User/User_Module/famms-1.0.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="/static/User/User_Module/famms-1.0.0/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="/static/User/User_Module/famms-1.0.0/css/responsive.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="hero_area">
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="containers">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <h4><i>Search&nbsp;Mate</i></h4>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div style="" class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="/admin_home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+{#                                <a class="nav-link" href="#">Offers</a>#}
+                            </li><li class="nav-item">
+                                <a class="nav-link" href="/verify_seller">Sellers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/admin_view_users">Users</a>
+                            </li>
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="verify_orders">Orders</a>#}
+{#                            </li>#}
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="#">Generate&nbsp;Recommendation</a>#}
+{#                            </li>#}
+                            <li class="nav-item">
+                                <a class="nav-link" href="/advim_view_complaint">Complaints</a>
+                            </li>
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="#">Feedbacks</a>#}
+{#                            </li>#}
+                            <li class="nav-item">
+                                <a class="nav-link" href="/admin_logout">Logout</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+
+        {% block content %}
+
+<!-- Your HTML contents -->
+
+        {% endblock %}
+
+        <!-- footer end -->
+        <div class="cpy_">
+            <p class="mx-auto">© 2024 All Rights Reserved By <br>
+                <a href="#" target="_blank">Thahzeen</a>
+            </p>
+        </div>
+
+        <!-- jQuery -->
+        <script src="/static/User/User_Module/famms-1.0.0/js/jquery-3.4.1.min.js"></script>
+        <!-- popper js -->
+        <script src="/static/User/User_Module/famms-1.0.0/js/popper.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="/static/User/User_Module/famms-1.0.0/js/bootstrap.js"></script>
+        <!-- custom js -->
+        <script src="/static/User/User_Module/famms-1.0.0/js/custom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+{% extends 'Admin/base.html' %}
+{% block content %}
+
+    <table class="table table-striped" style="margin-top: 10px">
+  <thead>
+    <tr>
+      <th>Si.No</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Phone Number</th>
+      <th>Email</th>
+      <th>Image</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in users %}
+    <tr>
+      <th>{{ forloop.counter }}</th>
+      <td>{{ i.name }}</td>
+      <td>{{ i.place }},{{ i.post }},<b>{{ i.pin }}</b></td>
+      <td>{{ i.phone }}</td>
+      <td>{{ i.email }}</td>
+      <td><img src="{{ i.image.url }}" height="80" width="90"></td>
+    </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+
+
+{% endblock %}

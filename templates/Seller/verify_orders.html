@@ -1,0 +1,132 @@
+{% extends 'Seller/base.html' %}
+{% block title %}
+Seller | Verify Orders
+{% endblock %}
+{% block content %}
+
+    <br><a href="seller_view_order_history" class="btn btn-primary" style="font-size: 20px;">View Order History</a><br><br>
+<h3 style="text-align: center; color: #333; margin-top: 20px;">Verify Orders</h3>
+
+<div class="order-table-container">
+  <table class="order-table">
+    <thead>
+      <tr>
+        <th>Si.no</th>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Customer</th>
+        <th>Manage</th>
+        <th>View More</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in orders %}
+      <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ i.date }}</td>
+        <td>₹{{ i.tm }}</td>
+        <td>{{ i.USER_ID.name }}</td>
+        <td>{% if i.status == 'requested' %}
+          <a href="accept_order/{{ i.id }}" class="btn accept-btn">Accept</a>
+          <a href="reject_order/{{ i.id }}" class="btn reject-btn">Reject</a>
+            {% else %}
+            Order is {{ i.status|capfirst }}
+            {% endif %}
+        </td>
+        <td>
+          <a href="view_more_order/{{ i.id }}" class="btn view-btn">View More</a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  /* Order Table Styles */
+  .order-table-container {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .order-table th,
+  .order-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .order-table th {
+    background-color: #2238af;
+    color: white;
+    font-weight: bold;
+  }
+
+  .order-table td {
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .order-table tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Button Styles */
+  .btn {
+    padding: 6px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .accept-btn {
+    background-color: #4CAF50;
+  }
+
+  .reject-btn {
+    background-color: #f44336;
+  }
+
+  .view-btn {
+    background-color: #5fcbf8;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .order-table-container {
+      width: 95%;
+    }
+
+    .order-table th,
+    .order-table td {
+      font-size: 14px;
+    }
+
+    .btn {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+</style>
+
+{% endblock %}

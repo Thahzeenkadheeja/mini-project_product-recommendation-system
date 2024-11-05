@@ -1,0 +1,67 @@
+{% extends 'Admin/base.html' %}
+{% block title %}
+Admin | Verify seller
+{% endblock %}
+{% block content %}
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Si.No</th>
+      <th scope="col">Name</th>
+      <th scope="col">Place</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Email</th>
+      <th scope="col">Image</th>
+      <th scope="col">ID</th>
+      <th scope="col">Status</th>
+      <th scope="col">Verify</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in sellers %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+      <td>{{ i.name }}</td>
+      <td>{{ i.place }}</td>
+      <td>{{ i.phone }}</td>
+      <td>{{ i.email }}</td>
+      <td><a href="{{ i.image.url }}"><img src="{{ i.image.url }}" height="100" width="100"></a> </td>
+      <td><a href="{{ i.id_proof.url }}"/><img src="{{ i.id_proof.url }}" height="100" width="100"></td>
+      <td>{{ i.LOGIN_ID.type }}</td>
+      <td>{% if i.LOGIN_ID.type == 'pending' %}
+          <form method="post" action="accept_reject_seller" style="display: inline;">
+              {% csrf_token %}
+              <input type="hidden" name="login_id" value="{{ i.LOGIN_ID.id }}">
+              <input type="hidden" name="action" value="accept">
+          <button type="submit" class="btn btn-success">Accept</button>
+          </form>
+
+          <form method="post" action="accept_reject_seller" style="display: inline;">
+              {% csrf_token %}
+              <input type="hidden" name="login_id" value="{{ i.LOGIN_ID.id }}">
+              <input type="hidden" name="action" value="reject">
+          <button type="submit" class="btn btn-danger">Reject</button>
+          </form>
+          {% elif i.LOGIN_ID.type == 'seller' or  i.LOGIN_ID.type == 'blocked'%}
+              <form method="post" action="block_unblock_seller" style="display: inline;">
+              {% csrf_token %}
+              <input type="hidden" name="login_id" value="{{ i.LOGIN_ID.id }}">
+              <input type="hidden" name="action" value="block">
+          <button type="submit" class="btn btn-danger">Block</button>
+          </form>
+
+          <form method="post" action="block_unblock_seller" style="display: inline;">
+              {% csrf_token %}
+              <input type="hidden" name="login_id" value="{{ i.LOGIN_ID.id }}">
+              <input type="hidden" name="action" value="unblock">
+          <button type="submit" class="btn btn-success">Unblock</button>
+          </form>
+{#          <a href="/verify_seller_product_rate/{{ i.id }}">Ratings</a>#}
+          {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

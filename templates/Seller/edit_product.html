@@ -1,0 +1,82 @@
+{% extends 'Seller/base.html' %}
+{% block content %}
+
+<div class="container mt-5">
+  <h2 class="mb-4">Edit Product</h2>
+  <form id="edit-product-form" method="POST" enctype="multipart/form-data" action="/edit_product_post">
+    {% csrf_token %}
+    <input type="hidden" name="id" value="{{ product.id }}">
+
+    <!-- Product Name -->
+    <div class="form-group mb-3">
+      <label for="product_name">Product Name</label>
+      <input type="text" value="{{ product.product_name }}" id="product_name" name="product_name" class="form-control" required>
+    </div>
+
+    <!-- Price -->
+    <div class="form-group mb-3">
+      <label for="price">Price</label>
+      <input type="number" id="price" value="{{ product.price }}" name="price" class="form-control" required>
+    </div>
+
+    <!-- Stock -->
+    <div class="form-group mb-3">
+      <label for="stock">Stock</label>
+      <input type="number" id="stock" value="{{ product.stock }}" name="stock" class="form-control" required>
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="old-image">Old Image</label>
+      <img src="{{ product.image.url }}" height="130" width="160" alt="Old Product Image">
+    </div>
+
+    <!-- Product Image -->
+    <div class="form-group mb-4">
+      <label for="image">Product Image</label>
+      <input type="file" id="image" name="image" class="form-control-file" accept=".jpg, .jpeg, .png">
+      <small id="file-error" style="color: red; display: none;">Please upload a valid image file (jpg, jpeg, png).</small>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Edit Product</button>
+    <a href="/seller_manage_products" class="btn btn-secondary">Cancel</a>
+  </form>
+</div>
+
+<script>
+  // File input validation
+  document.getElementById('image').addEventListener('change', function() {
+    var fileInput = document.getElementById('image');
+    var filePath = fileInput.value;
+    var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+    var errorMessage = document.getElementById('file-error');
+
+    // Check if file extension matches the allowed formats
+    if (filePath && !allowedExtensions.exec(filePath)) {
+      // If invalid, show error message and clear the file input
+      errorMessage.style.display = 'block';
+      fileInput.value = ''; // Reset the input
+    } else {
+      // If valid, hide error message
+      errorMessage.style.display = 'none';
+    }
+  });
+
+  // Prevent form submission if the image is invalid
+  document.getElementById('edit-product-form').addEventListener('submit', function(event) {
+    var fileInput = document.getElementById('image');
+    var filePath = fileInput.value;
+    var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
+    var errorMessage = document.getElementById('file-error');
+
+    // Check if a file was selected and validate it
+    if (filePath && !allowedExtensions.exec(filePath)) {
+      event.preventDefault(); // Prevent form submission
+      errorMessage.style.display = 'block'; // Show error message
+    } else {
+      errorMessage.style.display = 'none'; // Hide error message if valid
+    }
+  });
+</script>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'Seller/base.html' %}
+{% block title %}
+Seller | View Profile
+{% endblock %}
+{% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded animate__animated animate__fadeIn">
+        <div class="card-header text-center">
+          <h3>Seller Profile</h3>
+        </div>
+        <div class="card-body text-center">
+          <div class="profile-img mb-4">
+            <img src="{{ seller_profile.image.url }}" alt="Seller Image" class="img-thumbnail" style="width: 100%; max-width: 300px; height: 200px; object-fit: cover;">
+          </div>
+          <h4 class="seller-name">{{ seller_profile.name }}</h4>
+          <p class="seller-place">{{ seller_profile.place }}</p>
+          <p class="seller-phone"><strong>Phone:</strong> {{ seller_profile.phone }}</p>
+          <p class="seller-email"><strong>Email:</strong> {{ seller_profile.email }}</p>
+        </div>
+        <div class="card-footer text-center">
+          <a href="seller_edit_profile" class="btn btn-primary animate__animated animate__pulse animate__infinite">Edit Profile</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

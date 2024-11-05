@@ -1,0 +1,189 @@
+{% extends 'User/base.html' %}
+{% block title %}
+User | View Cart
+{% endblock %}
+{% block content %}
+    <meta http-equiv="refresh" content="1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px; /* Adjust based on navbar height */
+            margin-bottom: 40px; /* Adjust based on footer height */
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .cart-container {
+            width: 65%;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            max-height: calc(100vh - 300px); /* Adjust based on navbar and footer height */
+        }
+        .cart-header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            z-index: 10;
+        }
+        .cart-header h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .cart-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .cart-table th, .cart-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .cart-table th {
+            background-color: #5fcbf8;
+            font-size: 16px;
+            position: sticky;
+            top: 64px; /* Adjust based on cart-header height */
+        }
+        .cart-table td img {
+            width: 80px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .cart-item-name {
+            font-weight: bold;
+        }
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+        }
+        .quantity-controls button {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        .quantity-controls input {
+            width: 40px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        .summary-card {
+            width: 30%;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(254, 255, 0, 0.87);
+            border-radius: 8px;
+            padding: 20px;
+            position: sticky;
+            top: 80px; /* Adjust based on navbar height */
+            height: fit-content;
+            max-height: calc(100vh - 140px); /* Adjust based on navbar and footer height */
+            overflow-y: auto;
+        }
+        .summary-card .total-label {
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: right;
+        }
+        .checkout-btn {
+            background-color: #28a745;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+        }
+        .checkout-btn:hover {
+            background-color: #218838;
+        }
+        .empty-cart-message {
+            text-align: center;
+            font-size: 24px;
+            color: #999;
+            margin-top: 50px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+<body>
+
+    <div class="main-content">
+        <div class="cart-container">
+            <div class="cart-header">
+                <h2 style="text-align: center;">Total Products :  {{ num }}</h2>
+            </div>
+
+            {% if order_details %}
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Si.No</th>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                            <th>Manage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in order_details %}
+                        <tr><td><span style="margin-left: 20px;">{{ forloop.counter }}</span></td>
+                            <td>
+                                <img src="{{ item.PRODUCT_ID.image.url }}" alt="{{ item.PRODUCT_ID.product_name }}"><br>
+                                <span class="cart-item-name">{{ item.PRODUCT_ID.product_name|capfirst }}</span>
+                            </td>
+                            <td>{{ item.quantity }}
+{#                                <div class="quantity-controls">#}
+{#                                    <button onclick="decreaseQuantity({{ item.id }})">-</button>#}
+{#                                    <input type="number" value="{{ item.quantity }}" min="1" id="quantity-{{ item.id }}" onchange="updateQuantity({{ item.id }})" />#}
+{#                                    <button onclick="increaseQuantity({{ item.id }})">+</button>#}
+{#                                </div>#}
+                            </td>
+                            <td>₹ {{ item.PRODUCT_ID.price }}</td>
+                            <td>₹ {{ item.price }}</td>
+                            <td><a style="color: red" href="remove_from_cart/{{ item.PRODUCT_ID.id }}">Remove</a> </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="empty-cart-message">Your cart is empty.</p>
+            {% endif %}
+        </div>
+        <div class="summary-card">
+            <h3>Order Summary</h3>
+            <p class="total-label">Total : ₹ {{ total_amount }}</p>
+            <p class="total-label">GST (12%) : ₹ {{ gst }}</p><hr>
+            <p class="total-label">Total Amount : ₹ <u>{{ total }}</u></p>
+            {% if total_amount > 50000 or total_amount < 1 %}{% else %}
+            <a href="user_pay_proceed/{{ order.id }}/{{ total }}" class="checkout-btn">Make Payment</a>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

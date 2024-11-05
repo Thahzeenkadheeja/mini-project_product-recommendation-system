@@ -1,0 +1,33 @@
+{% extends 'Admin/base.html' %}
+{% block content %}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Date</th>
+      <th scope="col">Sender</th>
+      <th scope="col">Comlaint</th>
+      <th scope="col">Reply</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in complaints %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+      <td>{{ i.date }}</td>
+      <td>{{ i.USER_ID.name }}</td>
+      <td>{{ i.complaint }}</td>
+      <td>{% if i.reply == 'pending' %}
+          <a href="complaint_reply/{{ i.id }}">Reply</a>
+          {% else %}
+          {{ i.reply }}
+          {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+
+{% endblock %}

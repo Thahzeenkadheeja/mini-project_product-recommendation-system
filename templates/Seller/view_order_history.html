@@ -1,0 +1,81 @@
+{% extends 'Seller/base.html' %}
+{% block title %}
+Seller | Order History
+{% endblock %}
+
+{% block content %}
+<div class="container my-4">
+    <h2 class="text-center mb-4">Order History</h2>
+
+    {% if orders %}
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Order Date</th>
+                    <th scope="col">Order Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>
+                        <a href="#" class="product-link">
+                            <img src="{{ order.PRODUCT_ID.image.url }}" alt="{{ order.PRODUCT_ID.product_name }}" class="img-fluid" width="50" height="50">
+                            {{ order.PRODUCT_ID.product_name }}
+                        </a>
+                    </td>
+                    <td>{{ order.quantity }}</td>
+                    <td>${{ order.price }}</td>
+                    <td>{{ order.ORDER_ID.date|date:"d M Y" }}</td>
+                    <td>
+                        <span style="margin-left: 30%;height: 35px;width:80px;text-align: center;font-size: 20px;" class="badge {% if order.status == 'Delivered' %}badge-success{% elif order.status == 'Pending' %}badge-warning{% else %}badge-danger{% endif %}">
+                            {{ order.ORDER_ID.status|capfirst }}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="text-center text-muted">No orders found.</p>
+    {% endif %}
+</div>
+
+<style>
+    .table thead th {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+    }
+    .table tbody td {
+        vertical-align: middle;
+    }
+    .product-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+    .product-link:hover {
+        text-decoration: underline;
+        color: #007bff;
+    }
+    .badge-success {
+        background-color: #28a745;
+    }
+    .badge-warning {
+        background-color: #ffc107;
+    }
+    .badge-danger {
+        background-color: #dc3545;
+    }
+</style>
+{% endblock %}

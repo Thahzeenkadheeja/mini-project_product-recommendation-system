@@ -1,0 +1,209 @@
+{% load static %}
+<html>
+   <head>
+      <style>
+         /* Basic navbar styling */
+         .header_section {
+            background-color: #fff; /* Background color of the header */
+            padding: 10px 0; /* Padding around the header */
+            border-bottom: 1px solid #ddd; /* Optional: border for separation */
+         }
+  .profile-img img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .profile-img img:hover {
+    transform: scale(1.1);
+  }
+
+  .seller-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .seller-place {
+    font-size: 1.2rem;
+    color: gray;
+  }
+.card {
+    animation-duration: 1s;
+  }
+  .img-thumbnail {
+    display: block;
+    margin: 0 auto;
+  }
+  .card {
+    animation-duration: 1s;
+  }
+
+  .btn-primary {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+         .custom_nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+
+         .navbar-brand {
+            font-size: 24px; /* Size of the brand text */
+            font-weight: bold;
+            margin-right: 20px; /* Space between the brand and navbar links */
+         }
+
+         .navbar-toggler {
+            border: none; /* Remove border from the toggler */
+         }
+
+         .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,..."); /* Add a custom icon if needed */
+         }
+
+         .navbar-nav {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            flex-direction: row; /* Ensure nav items are in a row */
+         }
+
+         .nav-item {
+            margin: 0; /* Remove margin between nav items */
+            padding: 0; /* Remove padding around nav items */
+         }
+
+         .nav-link {
+            padding: 8px 15px; /* Adjust padding around links */
+            font-size: 16px; /* Font size of the links */
+            color: #333; /* Text color */
+            display: block; /* Ensure links take up the full space */
+            text-decoration: none; /* Remove underline */
+         }
+
+         .nav-link:hover {
+            color: #007bff; /* Color on hover */
+         }
+
+         .dropdown-menu {
+            min-width: 150px; /* Minimum width of the dropdown menu */
+         }
+
+         .dropdown-item {
+            font-size: 16px; /* Font size of dropdown items */
+            padding: 10px 15px; /* Padding around dropdown items */
+         }
+
+         .navbar-nav .nav-item.active .nav-link {
+            font-weight: bold; /* Bold text for active item */
+            color: #007bff; /* Color for active link */
+         }
+
+         .navbar-nav .nav-item {
+            margin-left: 10px; /* Space between nav items */
+         }
+          /* Add some spacing between the form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Customize button */
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+/* Form container styling */
+.container {
+    max-width: 600px;
+}
+
+      </style>
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <link rel="shortcut icon" href='/static/User/User_Module/famms-1.0.0/images/favicon.png' type="">
+      <title>{% block title %} Seller {% endblock %}</title>
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href='/static/User/User_Module/famms-1.0.0/css/bootstrap.css' />
+      <!-- font awesome style -->
+      <link href="/static/User/User_Module/famms-1.0.0/css/font-awesome.min.css" rel="stylesheet" />
+      <!-- Custom styles for this template -->
+      <link href="/static/User/User_Module/famms-1.0.0/css/style.css" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="/static/User/User_Module/famms-1.0.0/css/responsive.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="hero_area">
+         <!-- header section starts -->
+        <header class="header_section">
+            <div class="containers">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                <h4><i>Search&nbsp;Mate</i></h4>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="seller_home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="seller_manage_products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="seller_view_profile">Profile</a>
+                            </li>
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="verify_orders">Verify&nbsp;Orders</a>#}
+{#                            </li>#}
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="#">Payment</a>#}
+{#                            </li>#}
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="#">Sales&nbsp;Report</a>#}
+{#                            </li>#}
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link" href="#">Order</a>#}
+{#                            </li>#}
+                            <li class="nav-item">
+                                <a class="nav-link" href="/product_feedbackadmin">Feedbacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="padding-left: 8px; padding-right: 8px;margin-left: 4px; margin-right: 4px;" class="nav-link" href="seller_logout">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+         <!-- end header section -->
+
+          {% block content %}
+
+          {% endblock %}
+
+      <!-- footer end -->
+      <div class="cpy_">
+         <p class="mx-auto">© 2024 All Rights Reserved By <br>
+             <a href="#" target="_blank">Search Mate</a>
+         </p>
+      </div>
+      <!-- jQuery -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/jquery-3.4.1.min.js"></script>
+      <!-- popper js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/popper.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/custom.js"></script>
+   </body>
+</html>

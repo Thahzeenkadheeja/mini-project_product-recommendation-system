@@ -1,0 +1,161 @@
+{% load static %}
+<html>
+   <head>
+       <style>
+           /* Basic styling from your current template */
+           .header_section {
+               background-color: #fff;
+               padding: 30px 0;
+               border-bottom: 1px solid #ddd;
+           }
+
+           .custom_nav-container {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+           }
+
+           .navbar-brand {
+               font-size: 24px;
+               font-weight: bold;
+           }
+
+           .login-container {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh; /* Full viewport height */
+               background-color: #f8f9fa; /* Light background to match your template */
+           }
+
+           .login-box {
+               background-color: #fff;
+               border-radius: 8px;
+               box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+               padding: 40px;
+               width: 400px; /* Increased width for larger login box */
+           }
+
+           .login-box h2 {
+               text-align: center;
+               margin-bottom: 20px;
+               font-size: 28px; /* Slightly larger heading */
+               font-weight: bold;
+               color: orangered;
+           }
+
+           .form-group {
+               margin-bottom: 20px;
+           }
+
+           .form-group label {
+               font-size: 16px;
+               color: #333;
+               font-weight: bold;
+           }
+
+           .form-group input {
+               width: 100%;
+               padding: 10px;
+               font-size: 16px;
+               border: 1px solid #ddd;
+               border-radius: 4px;
+           }
+
+           .login-box button {
+               width: 100%;
+               padding: 10px;
+               font-size: 18px;
+               color: #fff;
+               background-color: #007bff;
+               border: none;
+               border-radius: 4px;
+               cursor: pointer;
+           }
+
+           .login-box button:hover {
+               background-color: #0056b3;
+           }
+
+           .login-box .signup-link {
+               display: block;
+               text-align: center;
+               margin-top: 10px;
+               font-size: 16px;
+               color: #007bff;
+           }
+
+           .login-box .signup-link:hover {
+               color: #0056b3;
+           }
+
+           .navbar-brand {
+              font-style: italic;
+              text-decoration: none;
+           }
+
+           .brand-title {
+               font-size: 24px;
+                color: #fff; /* White color for the brand text */
+           }
+
+           .custom_nav-container {
+               width: 300%;
+               padding: 10px 20px;
+               background-color: black;
+           }
+       </style>
+       <!-- Basic -->
+       <meta charset="utf-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <!-- Mobile Metas -->
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+       <title>Login - Search Mate</title>
+       <!-- bootstrap core css -->
+       <link rel="stylesheet" type="text/css" href="/static/User/User_Module/famms-1.0.0/css/bootstrap.css" />
+       <!-- font awesome style -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- Custom styles for this template -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/style.css" rel="stylesheet" />
+       <!-- responsive style -->
+       <link href="/static/User/User_Module/famms-1.0.0/css/responsive.css" rel="stylesheet" />
+   </head>
+   <body>
+      <header class="header_section">
+         <div class="container" style="max-width: 11000px;">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+               <i><h1><span style="color: orange;">Search</span><span style="color: white">Mate</span></h1></i>
+            </nav>
+         </div>
+      </header>
+
+      <div class="login-container">
+         <div class="login-box">
+            <h2>Login</h2>
+            <form method="POST" action="login_post">
+               {% csrf_token %}
+               <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" id="username" name="username" required>
+               </div>
+               <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" required>
+               </div>
+               <button type="submit">Login</button>
+               <a class="signup-link" href="user_registration">Don't have an account? Sign up</a><br>
+                <a class="signup-link" href="seller_registration">Become a Seller</a>
+            </form>
+         </div>
+      </div>
+
+      <!-- jQuery -->
+      <script src='/static/User/User_Module/famms-1.0.0/js/jquery-3.4.1.min.js'></script>
+      <!-- popper js -->
+      <script src='/static/User/User_Module/famms-1.0.0/js/popper.min.js'></script>
+      <!-- bootstrap js -->
+      <script src="/static/User/User_Module/famms-1.0.0/js/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src='/static/User/User_Module/famms-1.0.0/js/custom.js'></script>
+   </body>
+</html>

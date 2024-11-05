@@ -1,0 +1,152 @@
+{% extends 'User/base.html' %}
+{% block content %}
+    <br><a href="user_order_history" class="btn btn-primary" style="font-size: 20px;">View Order History</a><br><br>
+    {% if orders %}
+<h3 style="text-align: center; color: #333; margin-top: 20px;">Manage Orders</h3>
+    <div class="order-table-container">
+  <table class="order-table">
+    <thead>
+      <tr>
+        <th>Si.no</th>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>View More</th>
+        <th>Payment</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for i in orders %}
+      <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ i.date }}</td>
+        <td>₹{{ i.amount }}</td>
+<td style="{% if i.status == 'accepted' %}color: green; {% elif i.status == 'rejected' %}color: red; {% elif i.status == 'cart' %}color: #ff11f9; {% elif i.status == 'requested' %}color: brown; {% else %}color: black; {% endif %}">
+    {{ i.status|capfirst }}
+</td>
+        <td>
+          <a href="user_view_more_order_status/{{ i.id }}" class="btn view-btn">View More</a>
+        </td>
+      <td>
+          {% if i.status == 'accepted' %}
+                <a href="/user_pay_proceed/{{ i.id }}/{{ i.amount }}" class="btn pay-btn">Pay</a>
+              {% else %}
+              <p style="color: red;font-size: larger">Wait for seller approval.</p>
+            {% endif %}
+      </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+    {% else %}
+        <span style="text-align: center;color: brown;font-size: larger;font-family: 'Arial Rounded MT Bold'">NO NEW ORDERS FOUND</span>
+    {% endif %}
+</div>
+
+<style>
+    .pay-btn {
+        background-color: #8B4513; /* Brown background */
+        color: white; /* White text */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px 20px; /* Padding for a bigger button */
+        font-size: 16px; /* Font size */
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+
+    .pay-btn:hover {
+        background-color: #6B3F1D; /* Darker brown on hover */
+    }
+
+    .pay-btn:focus {
+        outline: none; /* Remove default outline */
+    }
+  /* Order Table Styles */
+  .order-table-container {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .order-table th,
+  .order-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .order-table th {
+    background-color: #00af48;
+    color: white;
+    font-weight: bold;
+  }
+
+  .order-table td {
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .order-table tr:hover {
+    background-color: #ddd;
+  }
+
+  /* Button Styles */
+  .btn {
+    padding: 6px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .accept-btn {
+    background-color: #4CAF50;
+  }
+
+  .reject-btn {
+    background-color: #f44336;
+  }
+
+  .view-btn {
+    background-color: #2211f8;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .order-table-container {
+      width: 95%;
+    }
+
+    .order-table th,
+    .order-table td {
+      font-size: 14px;
+    }
+
+    .btn {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+</style>
+
+
+{% endblock %}
